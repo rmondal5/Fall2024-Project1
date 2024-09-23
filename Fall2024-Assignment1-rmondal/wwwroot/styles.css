@@ -1,23 +1,23 @@
 ﻿body {
-    background-image: radial-gradient(circle, cyan, black); /* Dark blue background */
-    color: black; /* Light text color for contrast */
-    text-align: center; /* Center text alignment for all body text */
+    background-image: radial-gradient(circle, cyan, black); 
+    color: black; 
+    text-align: center; 
     font-family: Arial, sans-serif;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0; 
+    padding: 0; 
 }
 
 .container {
-    max-width: 800px; /* Maximum width of the container */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
 }
 
 #CoverArt {
-    border-radius: 50%; /* Circular image */
-    width: 200px; /* Fixed width for image */
-    height: 200px; /* Fixed height for image */
-    object-fit: cover; /* Cover the area without distortion */
+    border-radius: 55%; 
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
 }
 
 .trailer-container {
@@ -38,20 +38,19 @@
 }
 
 #Actors {
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding from list */
+    list-style-type: none; /
+    padding: 0;
 }
 
 a {
-    color: blue ; /* Link color */
-    text-decoration: none; /* Remove underline from links */
+    color: blue ; 
+    text-decoration: underline; 
 }
 
     a:hover {
-        text-decoration: underline; /* Underline on hover for links */
+        text-decoration: underline; 
     }
 
-/* Centering specific elements if needed (optional) */
 h1, h5, p {
-    margin: 10px 0; /* Add vertical spacing between headings and paragraphs */
+    margin: 10px 0; 
 }
