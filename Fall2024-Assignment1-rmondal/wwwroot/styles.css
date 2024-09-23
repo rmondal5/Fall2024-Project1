@@ -1,0 +1,57 @@
+﻿body {
+    background-image: radial-gradient(circle, cyan, black); /* Dark blue background */
+    color: black; /* Light text color for contrast */
+    text-align: center; /* Center text alignment for all body text */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+}
+
+#CoverArt {
+    border-radius: 50%; /* Circular image */
+    width: 200px; /* Fixed width for image */
+    height: 200px; /* Fixed height for image */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.trailer-container {
+    width: 55%;
+    margin: 20px auto;
+    position: relative;
+    padding-bottom: 28.125%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+#Trailer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Actors {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding from list */
+}
+
+a {
+    color: blue ; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+    a:hover {
+        text-decoration: underline; /* Underline on hover for links */
+    }
+
+/* Centering specific elements if needed (optional) */
+h1, h5, p {
+    margin: 10px 0; /* Add vertical spacing between headings and paragraphs */
+}
