@@ -1,10 +1,10 @@
 ﻿body {
-    background-image: radial-gradient(circle, cyan, black); /* circular gradient*/
-    color: black; 
-    text-align: center; 
+    background-image: linear-gradient(to right, #00008B, black); 
+    color: black;
+    text-align: center;
     font-family: Arial, sans-serif;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -54,3 +54,5 @@ a {
 h1, h5, p {
     margin: 10px 0; 
 }
+
+/* Reference: W3 school, Google search, Stack Overflow */
