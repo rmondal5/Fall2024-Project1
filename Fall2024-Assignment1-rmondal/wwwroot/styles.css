@@ -1,6 +1,6 @@
 ﻿body {
-    background-image: linear-gradient(to right, #00008B, black); 
-    color: black;
+    background-color: #1f2766;
+    color: white;
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,13 +8,14 @@
 }
 
 .container {
-    max-width: 800px; 
+    width: 90%; 
+    max-width: 800px;
     margin: 0 auto; 
     padding: 20px;
 }
 
 #CoverArt {
-    border-radius: 55%; 
+    border-radius: 50%; 
     width: 200px;
     height: 200px;
     object-fit: cover; 
@@ -38,13 +39,14 @@
 }
 
 #Actors {
-    list-style-type: none; /
+    list-style-type: none;
+    margin: 5px 0;
     padding: 0;
 }
 
 a {
-    color: blue ; 
-    text-decoration: underline; 
+    color: #00ffff;
+    text-decoration: underline;
 }
 
     a:hover {
@@ -53,6 +55,15 @@ a {
 
 h1, h5, p {
     margin: 10px 0; 
+}
+
+#CoverArt:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    color: darkred;
 }
 
 /* Reference: W3 school, Google search, Stack Overflow */
